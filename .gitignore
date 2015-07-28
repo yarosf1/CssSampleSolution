@@ -194,3 +194,4 @@ CommonControls/CombinedStylesheets/common-controls.less
 
 # Allow
 !Tools/lessc/[Bb]in/
+!Tools/lessc/lib/less/node_modules/
