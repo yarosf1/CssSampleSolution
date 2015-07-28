@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonControls", "CommonControls\CommonControls.csproj", "{33DA7222-F236-4A50-8343-C11473FCB644}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cdn", "Cdn\Cdn.csproj", "{582F4F75-7808-46A9-8E84-1EA0F063C7BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{7C5554CA-87B3-48B1-974D-07C321476830}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PreBuildEvents", "PreBuildEvents", "{2DD1A268-B83C-476F-A8D5-80E76D03253C}"
+	ProjectSection(SolutionItems) = preProject
+		Tools\PreBuildEvents\PreBuildCdn.cmd = Tools\PreBuildEvents\PreBuildCdn.cmd
+		Tools\PreBuildEvents\PreBuildControls.cmd = Tools\PreBuildEvents\PreBuildControls.cmd
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lessc", "lessc", "{7521C8E2-E20F-4452-BCC8-4BD495F1B03A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33DA7222-F236-4A50-8343-C11473FCB644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33DA7222-F236-4A50-8343-C11473FCB644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33DA7222-F236-4A50-8343-C11473FCB644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33DA7222-F236-4A50-8343-C11473FCB644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{582F4F75-7808-46A9-8E84-1EA0F063C7BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{582F4F75-7808-46A9-8E84-1EA0F063C7BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{582F4F75-7808-46A9-8E84-1EA0F063C7BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{582F4F75-7808-46A9-8E84-1EA0F063C7BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2DD1A268-B83C-476F-A8D5-80E76D03253C} = {7C5554CA-87B3-48B1-974D-07C321476830}
+		{7521C8E2-E20F-4452-BCC8-4BD495F1B03A} = {7C5554CA-87B3-48B1-974D-07C321476830}
+	EndGlobalSection
+EndGlobal
