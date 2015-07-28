@@ -73,6 +73,13 @@
     <Folder Include="Images\" />
     <Folder Include="Scripts\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonControls\CommonControls.csproj">
+      <Project>{33da7222-f236-4a50-8343-c11473fcb644}</Project>
+      <Name>CommonControls</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
